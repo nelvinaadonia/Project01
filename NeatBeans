@@ -1,0 +1,19 @@
+public static void main(String[] args) {
+        Scanner s = new Scanner (System.in);
+        System.out.println("Masukan tahun lahir pasien :");
+        int tahunLahirPasien = s.nextInt();
+        System.out.println("Ketik az untuk AstraZeneca");
+        System.out.println("Ketik sv untuk Sinovac");
+        
+        System.out.println("Pilih Vaksin yang akan diberikan :");
+        int  YangDiberikan = s.nextInt();
+        System.out.println("\n--------------------------------------");
+        System.out.println("Umur Pasien : ");
+        
+            System.out.println("Pasien dengan rentan umur , boleh menerima vaksin covid19 sinovac");
+        }  {
+            System.out.println("Pasien dengan rentan umur ,tidak boleh menerima vaksin covid19 sinovac");
+        }
+        
+        
+    }
